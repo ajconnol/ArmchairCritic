@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  background-color: #000000;
+  overflow: hidden;
+  top: 0px;
+  position: relative;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #000000;
+  font-size: 100%;
+  font-family: "LibreBaskerville";
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #000000;
+  font-size: 100%;
+  font-family: "LibreBaskerville";
+}
+li a:hover {
+  background-color: rgb(51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+}
+li a1:hover {
+  background-color: rgb(51, 51, 51);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li a img {
+  height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+ li textlink a{
+    display: none;
+  }
+}
